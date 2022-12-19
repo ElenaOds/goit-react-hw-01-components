@@ -6,11 +6,12 @@ flex-direction: column;
 align-items: center;
 width: 320px;
 padding: 0 0 0 0;
+margin-bottom: 50px;
 background-color: #fff;
 box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.12), 
-1px 3px 3px rgba(0, 0, 0, 0.14), 
-0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0 0 4px 4px;
+1px 3px 4px rgba(0, 0, 0, 0.14), 
+0px 1px 2px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
 `;
 
 export const Description = styled.div `
@@ -55,8 +56,9 @@ export const Stats = styled.ul`
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 15px 0 15px 0;
     width: 100%;
+    border-radius: 0 0 10px 10px;
     background-color: #f6f7f8
 `;
 
