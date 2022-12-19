@@ -6,6 +6,7 @@ export const Section = styled.section`
     align-items: center;
     width: 320px;
     padding: 0;
+    margin-bottom: 50px;
     background-color: #fff;
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.12), 
     1px 3px 4px rgba(0, 0, 0, 0.14), 
